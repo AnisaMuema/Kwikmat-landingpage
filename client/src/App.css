@@ -1,0 +1,309 @@
+.App {
+  text-align: center;
+}
+
+*{
+  font-family: montserrat;
+}
+
+body{
+  background: f1fbff;
+  
+}
+
+
+
+.section-padding{
+  padding: 100px 0;
+}
+
+.carousel-item{
+  height: 100vh;
+  min-height: 300px;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  margin-top: auto;
+}
+
+.carousel-caption{
+  bottom: 220px;
+  z-index: 2;
+}
+
+.carousel-caption h5{
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p{
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.carousel-inner::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 1;
+}
+
+
+
+.navbar-nav a{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.navbar-dark .navbar-brand{
+  color: hsl(79, 76%, 92%);
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background: transparent;
+}
+
+
+
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover{
+  color:#000;
+}
+
+.navbar-dark .navbar-nav .navbar-link{
+  color:  #010000;
+}
+
+
+
+
+
+
+.w-100{
+  height: 100vh;
+}
+
+.services .card {
+  min-height: 100%; /* Ensure all cards have equal height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.services .card-body i{
+  font-size: 50px;
+  
+}
+
+.services .card-body{
+  height: 100%;
+  
+  
+}
+
+
+.about h2{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about h3{
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about .card {
+  min-height: 100%; /* Ensure all cards have equal height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding-bottom: 15px;
+  color: white;
+}
+.about{
+  background-color: rgb(255, 255, 255);
+}
+
+.about .card-body i{
+  font-size: 80px;
+  
+}
+
+/* Custom styles for the service blocks */
+.service-block {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.service-icon {
+  font-size: 3rem;  /* Larger icon */
+  margin-bottom: 15px;
+  color: #ffc107; /* Custom icon color */
+}
+
+.service-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333; /* Custom title color */
+}
+
+.services.lead {
+  font-size: 1rem;
+  color: #666; /* Light grey text */
+  text-align: center;
+}
+
+/* Divider styles */
+.service-divider {
+  border: 1px solid #eb0a0a;
+  margin: 30px 0;
+  width: 100%;
+}
+
+/* Make sure the dividers are hidden on larger screens */
+@media (min-width: 992px) {
+  .service-divider {
+    display: none;
+  }
+}
+
+/* For smaller screens, show the dividers */
+@media (max-width: 991px) {
+  .service-divider {
+    display: block;
+  }
+}
+
+.section-padding {
+  padding: 60px 0;
+}
+
+.row {
+  justify-content: center;
+}
+
+.about p{
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+
+.about .card-body{
+  height: 100%;
+  
+  
+}
+
+.data .data-card{
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.data .data-card h5{
+  font-size: 90px;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.data {
+  background-color: rgb(46, 125, 179);
+}
+
+.team .card-body i{
+  font-size: 20px;
+}
+
+.team .card{
+  box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+
+/* General card styles */
+.custom-card {
+  background-color: #12e09f; /* Change background color */
+  border: 1px solid #dddddd; /* Add a subtle border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px; /* Add padding */
+}
+
+.custom-card:hover {
+  transform: translateY(-10px); /* Lift card on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+}
+
+.custom-card .card-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.custom-card .lead {
+  font-size: 1.15rem;
+  color: #555;
+}
+
+.section-header h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Add some spacing around the section */
+.section-padding {
+  padding: 60px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+/* === Responsive css === */
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .carousel-caption{
+      bottom: 370px;
+  }
+  .carousel-caption p{
+      width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .navbar-nav{
+      text-align: center;
+  }
+  .carousel-caption{
+      bottom:125px;
+  }
+  .carousel-caption h5{
+      font-size: 17px;
+  }
+  .carousel-caption a{
+      padding: 10px 15px;
+  }
+  .carousel-caption p{
+      width: 100%;
+      line-height: 1.6;
+      font-size:  12px;
+  }
+}
