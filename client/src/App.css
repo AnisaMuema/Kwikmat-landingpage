@@ -73,6 +73,14 @@ body{
   background: transparent;
 }
 
+.row i{
+  font-size: 30px;
+}
+
+.tutorialHeader{
+  margin-right: 90px;
+}
+
 
 
 .navbar-dark .navbar-brand:focus,
