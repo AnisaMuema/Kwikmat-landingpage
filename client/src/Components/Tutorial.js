@@ -2,7 +2,9 @@ import React from 'react'
 
 const Tutorial = () => {
   return (
-    <div>Tutorial</div>
+    <div>Here's how GoMa3 works in 7 simple steps:
+      
+    </div>
   )
 }
 

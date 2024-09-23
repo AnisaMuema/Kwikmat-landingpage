@@ -4,7 +4,10 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="#home"><span className="text-warning">Go</span>Ma3</a>
+        <a href='#'>
+          <img src='/Icons/goMat3logo.png' style={{width: '200px'}} />
+        </a>
+        
         <button
           className="navbar-toggler"
           type="button"
