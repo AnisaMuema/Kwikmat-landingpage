@@ -1,8 +1,9 @@
 import React from 'react';
 
+
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-dark ">
       <div className="container">
         <a href='#'>
           <img src='/Icons/goMat3logo.png' style={{width: '200px'}} />
@@ -19,22 +20,22 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent" >
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className="nav-link" href="#home">Home</a>
+            <li className="nav-item" >
+              <a className="nav-link" href="#home" style={{fontFamily: '"Poppins", sans-serif'}}>Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about">About</a>
+              <a className="nav-link" href="#about" style={{fontFamily: '"Poppins", sans-serif'}}>About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#services">Services</a>
+              <a className="nav-link" href="#services" style={{fontFamily: '"Poppins", sans-serif'}}>Services</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#team">Team</a>
+              <a className="nav-link" href="#team" style={{fontFamily: '"Poppins", sans-serif'}}>Team</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">Contacts</a>
+              <a className="nav-link" href="#contact" style={{fontFamily: '"Poppins", sans-serif'}}>Contacts</a>
             </li>
           </ul>
         </div>

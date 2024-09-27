@@ -13,19 +13,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import TutorialPlacard from './Components/TutorialPlacard';
 import Tutorial from './Components/Tutorial';
+import JoinUs from './Components/JoinUs';
 
 function App() {
   return (
     <div className='App'>
       <Navbar />
       <Carousel />
+      
       <About />
       
       <DataSection />
       <Services />
       <TutorialPlacard />
       <Tutorial />
-      <Contact />
+      <JoinUs />
       <Footer />
 
 
