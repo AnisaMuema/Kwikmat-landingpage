@@ -31,6 +31,7 @@ const TutorialPlacard = ({ title, description, backgroundColor, textColor }) => 
           </div>
         </div>
         <hr></hr>
+        <br></br>
         <hr></hr>
       </div>
     );

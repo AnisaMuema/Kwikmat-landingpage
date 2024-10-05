@@ -13,6 +13,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import TutorialPlacard from './Components/TutorialPlacard';
 import Tutorial from './Components/Tutorial';
+import JoinUsForm from './Components/JoinUsForm';
 import JoinUs from './Components/JoinUs';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <TutorialPlacard />
       <Tutorial />
       <JoinUs />
+      <JoinUsForm />
       <Footer />
 
 
