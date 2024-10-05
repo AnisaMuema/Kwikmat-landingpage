@@ -59,6 +59,7 @@ const JoinUsForm = () => {
 
     return (
         <form className="form-container" onSubmit={handleSubmit}>
+            <h1>Join US</h1>
             <div className="form-group">
                 <label>Full Name:</label>
                 <input

@@ -2,11 +2,12 @@ from app import db
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 
-engine = create_engine('sqlite:///user.db')
 
 Base = declarative_base()
 
-class User(db.Model): 
+class User(Base): 
+    __tablename__ = 'users'
+
     id = db.Column(db.Integer, primary_key=True)
     full_name = db.Column(db.String(100), nullable=False)
     id_number = db.Column(db.String(100), nullable=False)
@@ -45,3 +46,7 @@ class User(db.Model):
 
     def __repr__(self):
         return f"User('{self.full_name}', '{self.id_number}', '{self.phone_number}', '{self.email}', '{self.stage}', '{self.route}', '{self.registration_number}', '{self.license_number}', '{self.experience_years}', '{self.sacco_name}', '{self.capacity}', '{self.operating_days}', '{self.operating_hours}', '{self.additional_info}', '{self.confirm_details}', '{self.agree_to_terms}')"
+    
+if __name__ == '__main__':
+    engine = create_engine('sqlite:///users.db')
+    Base.metadata.create_all(engine)
